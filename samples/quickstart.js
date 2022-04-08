@@ -29,8 +29,7 @@ function main(parent, latitude, longitude, duration, date, amount, maxLoad) {
   // const modelConfigs = 1234
 
   // Imports the Optimization library
-  const {FleetRoutingClient, OptimizeToursRequest} =
-    require('@google-cloud/optimization').v1;
+  const {FleetRoutingClient} = require('@google-cloud/optimization').v1;
 
   // Instantiates a client
   const optimizationClient = new FleetRoutingClient();
