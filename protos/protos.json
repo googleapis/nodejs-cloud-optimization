@@ -2628,13 +2628,6 @@
                     "default": false
                   }
                 },
-                "unverifiedLazy": {
-                  "type": "bool",
-                  "id": 15,
-                  "options": {
-                    "default": false
-                  }
-                },
                 "deprecated": {
                   "type": "bool",
                   "id": 3,
